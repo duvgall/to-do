@@ -30,9 +30,16 @@ function addProject() {
 
 }
 
-function cancelAdd(){
+function cancelAddTask(){
+    //make task input div or form disappear
+    //get element by Id and change display to none
+    //clear input text field
+}
+
+function cancelAddProject(){
     //make input div disappear again
     //get element by Id and change display to none
+    //clear input text field
 }
 
 function deleteTask() {
