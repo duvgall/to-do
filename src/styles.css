@@ -1,3 +1,33 @@
 * {
-    
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
+
+main {
+    height: 95%;
+}
+
+header {
+    min-height: 10vh;
+    background-color: red;
+}
+
+.container {
+    background-color: aqua;
+    display: flex;
+    min-height: 85vh;
+    min-width: 100vh;
+    flex-direction: row;
+    flex: 1 1 auto;
+}
+
+nav {
+    text-align: center;
+}
+
+#task-list-container {
+    text-align: center;
+    width: 75%;
+}
+
