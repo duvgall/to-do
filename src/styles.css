@@ -11,6 +11,16 @@ main {
 header {
     min-height: 10vh;
     background-color: red;
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+    width: 25%;
+}
+
+ul {
+    list-style: none;
 }
 
 .container {
@@ -22,8 +32,8 @@ header {
     flex: 1 1 auto;
 }
 
-nav {
-    text-align: center;
+.input-container {
+    display: none;
 }
 
 #task-list-container {
@@ -31,3 +41,10 @@ nav {
     width: 75%;
 }
 
+#task-container {
+    display: none;
+}
+
+#project-container {
+    display: none;
+}
